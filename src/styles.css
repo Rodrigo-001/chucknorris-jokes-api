@@ -1,9 +1,12 @@
 body {
-  background-color: rgb(113, 26, 163);
+  /* background-color: rgb(113, 26, 163); */
+  /* imagem preenche todo o fundo */
+  background: url('https://static.tvtropes.org/pmwiki/pub/images/chuck_norris_flag.jpg') no-repeat center center fixed;  
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 div {
@@ -13,10 +16,24 @@ div {
 h1,
 h2 {
   color: yellow;
+  text-shadow: 3px 3px 5px #000000;
 }
 
 p,
 a,
 li {
-  color: #fff;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 3px 3px 5px #000000;
+  
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
 }
